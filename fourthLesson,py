@@ -1,0 +1,52 @@
+# student1= ["Tom", "Sam", 'Jack', "Bob", "Tim", "Sara"]
+# numbers = [1, 2, 3, 4, 5]
+# people= ["Tom", "Sam", "Bob"]
+# name_list = student1[1]*10
+# print(name_list)
+# price_list= [student1[3]] * 10
+# print(name_list)
+# print(price_list)
+# name ='name'
+# name*2
+# print(name)
+# student1[0]="Bob"
+# student1
+# print(student1)
+# student1[-1]=500
+# print(student1)
+# len(student1)
+# len_list= len(student1)
+# print(len_list)
+# student1.append("Bob")
+# print(len(student1))
+# print(student1)
+# names2= student1[:]
+# print(names2)
+# names2= student1[1:3]
+# print(names2)
+# names2 = student1[-1]
+# print(names2)
+# names2 = student1[0::2]
+# names2.reverse()
+# print(names2)
+
+
+# student1 = ["Tom", "Sam", "Jack", "Bob", "Tim", "Sara"]
+# student1[4:] = student1[0:2]
+# student1[-2:]
+# print(student1)
+# # a, b, c =2, 4, 6 в списке так же можно переименовать общим
+
+# student1[2] = 'Alex'
+# student1.insert(0, 'Alex')
+# print(student1)
+
+student1 = ["Tom", "Sam", "Jack", "Bob", "Tim", "Sara"]
+student2 = ['Alice', 'John', 'Eva']
+student1.extend(student2)
+print(student1)
+student2.remove('Eva')
+print(student2)
+student1.clear()
+print("This is student2", student2)
+print("This is student1", student1)
