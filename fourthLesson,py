@@ -41,12 +41,20 @@
 # student1.insert(0, 'Alex')
 # print(student1)
 
+# student1 = ["Tom", "Sam", "Jack", "Bob", "Tim", "Sara"]
+# student2 = ['Alice', 'John', 'Eva']
+# student1.extend(student2)
+# print(student1)
+# student2.remove('Eva')
+# print(student2)
+# student1.clear()
+# print("This is student2", student2)
+# print("This is student1", student1)
+
 student1 = ["Tom", "Sam", "Jack", "Bob", "Tim", "Sara"]
 student2 = ['Alice', 'John', 'Eva']
-student1.extend(student2)
+tim_index = student1.index('Tim')
+print(tim_index)
 print(student1)
-student2.remove('Eva')
-print(student2)
-student1.clear()
-print("This is student2", student2)
-print("This is student1", student1)
+student1[tim_index] = 'Timothy'
+print(student1)
